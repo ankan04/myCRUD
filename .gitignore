@@ -1,0 +1,57 @@
+# Dependency directory (don't commit dependencies)
+node_modules/
+
+# Lockfiles (commit ONLY the pnpm lockfile)
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*   # If using multiple env files like .env.local
+
+# Runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build and cache directories
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Coverage from test tools like Jest
+coverage/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local database or SQLite
+*.sqlite
+*.db
+*.db-wal
+*.db-shm
+
+# Optional: if using PM2 or similar tools
+pids/
+*.log
+dump.rdb
