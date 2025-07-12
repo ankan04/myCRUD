@@ -10,8 +10,8 @@
 
 ## 📦 How to Run
 
-1. `npm install`
-2. `npm run dev`
+1. `pnpm install`
+2. `pnpm run dev`
 3. Add `.env`:
 ```
 PORT=5000
